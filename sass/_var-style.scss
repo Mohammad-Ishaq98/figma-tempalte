@@ -1,0 +1,12 @@
+$primaryFont: 18px;
+$secondaryFont: 18px;
+$primaryHeadsFont: 40px;
+$secondaryHeadsFont: 24px;
+$primaryHeadsColor: #212353;
+$bodyColor: #4B5D68;
+@mixin transition {
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}

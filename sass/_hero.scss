@@ -1,0 +1,34 @@
+@use 'var-style' as v;
+.hero{
+  .hero_txt{
+    padding: 143px 0;
+    h1{
+      font-family: Helvetica;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 50px;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.2;
+      padding-right: 236px;
+      margin-bottom: 56px;
+    }
+    button{
+      padding: 16px 35px;
+      background: #9C69E2;
+      border-radius: 50px;
+      color: #fff;
+      border: none;
+      @include v.transition;
+      &:hover{
+        background: #7512ff;
+      }
+    }
+  }
+  .hero_img_col{
+    margin-left: -172px;
+  }
+}

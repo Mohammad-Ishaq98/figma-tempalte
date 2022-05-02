@@ -1,0 +1,85 @@
+@use 'var-style';
+footer{
+  position: relative;
+  padding: 50px 0;
+  h2{
+    margin-bottom: 20px;
+  }
+  img{
+    margin:65px 0;
+  }
+  .address,.contact_info{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+  }
+  small{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-top: 50px;
+  }
+  .footer_right{
+    button{
+      padding: 16px 16px;
+      background: #F063B8;
+      border-radius: 50px;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 29px;
+      margin-right: 96px;
+      &:nth-child(2){
+        background: #fff;
+        color: #000;
+        border: none;
+        padding: 17px 29px;
+        box-shadow: 0px 5px 5px 0px rgb(75 93 104 / 10%);
+        border-radius: 50px;
+        margin-right: 0;
+      }
+    }
+    .footer_right_info{
+      .about,.help,.social_media{
+        margin-top: 100px;
+        margin-right: 50px;
+        li{
+          a{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 40px;
+            color: #212353;
+          }
+        }
+      }
+      .social_media{
+        display: flex;
+        li{
+          a{
+            i{
+              //display: inline-block;
+              height: 50px;
+              width: 50px;
+              line-height: 50px;
+              background: rgba(243, 227, 84, 0.699);
+              color: #fff;
+              border-radius: 50%;
+              text-align: center;
+              margin-right: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .message_box{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

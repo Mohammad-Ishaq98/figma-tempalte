@@ -1,0 +1,21 @@
+@use 'var-style' as v;
+.storage{
+  .storage_row{
+    background: #F063B826;
+    border-radius: 25px;
+    .storage_txt{
+      h2{
+        font-size: 40px;
+        line-height: 130%;
+        margin-bottom: 40px;
+        padding-right: 225px;
+      }
+      p{
+        padding-right: 38%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%
+      }
+    }
+  } 
+}
